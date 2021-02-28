@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   
+	<link rel="stylesheet" type="text/css" href="conatact/css/util.css">
+	<link rel="stylesheet" type="text/css" href="contact/css/main.css">
+	 <!-- Favicons -->
+	 <link href="assets/img/eco.png"  rel="icon">
+	 <link href="assets/img/eco.png" rel="apple-touch-icon">
+   
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+   
+	 <!--VENDOR FILES-->
+	 <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	 <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="assets/css/all.min.css">
+	 <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	 <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+	 <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+	 <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	 <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	 <link href="css/bootstrap.css" rel="stylesheet">
+	 <link href="css/fontawesome-all.css" rel="stylesheet">
+	 <link href="css/swiper.css" rel="stylesheet">
+	 <link href="css/slider.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="conatact/css/util.css">
+	   <link rel="stylesheet" type="text/css" href="contact/css/main.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   
+	 <!-- Template Main CSS File -->
+	 <link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/css-jssor.css" rel="stylesheet" type="text/css">
+	<style>
+
+ .button {
+	 position: relative;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+	 width: 12.5rem;
+	 font-size:23px;
+	 font-family: 'Poppins','Times New Roman', Times, serif;
+	 font-weight:500;
+	 letter-spacing: 0.6px;
+	 margin: 0;
+	 padding: 1.5rem 3.125rem;
+	 background-color: #3498db;
+	 border: none;
+	 border-radius: 0.3125rem;
+	 box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+	 color: white;
+	 text-transform: uppercase;
+	 overflow: hidden;
+	 animation-iteration-count: infinite;
+}
+ .button:before {
+	 position: absolute;
+	 content: '';
+	 bottom: 0;
+	 left: 0;
+	 width: 0%;
+	 height: 100%;
+	 background-color: #54d98c;
+	 animation-iteration-count:initial;
+}
+ .button span {
+	 position: absolute;
+	 line-height: 0;
+}
+ .button span i {
+	 transform-origin: center center;
+}
+ .button span:nth-of-type(1) {
+	 top: 50%;
+	 transform: translateY(-50%);
+	 animation-iteration-count: infinite;
+}
+ .button span:nth-of-type(2) {
+	 top: 100%;
+	 transform: translateY(0%);
+	 font-size: 24px;
+	 animation-iteration-count: infinite;
+}
+ .button span:nth-of-type(3) {
+	 display: none;
+	 
+}
+ 
+ .active:before {
+	 width: 100%;
+	 transition: width 3s linear;
+	 animation-iteration-count: infinite;
+}
+ .active span:nth-of-type(1) {
+	 top: -100%;
+	 transform: translateY(-50%);
+	 animation-iteration-count: infinite;
+}
+ .active span:nth-of-type(2) {
+	 top: 50%;
+	 transform: translateY(-50%);
+	 animation-iteration-count: infinite;
+}
+ .active span:nth-of-type(2) i {
+	 animation: loading 500ms linear infinite;
+}
+ .active span:nth-of-type(3) {
+	 display: none;
+	 animation-iteration-count:infinite;
+}
+ .finished {
+	 background-color: #54d98c;
+	 
+}
+ .finished .submit {
+	 display: none;
+	 
+}
+ .finished .loading {
+	 display: none;
+	 animation-iteration-count: 2;	 
+}
+ .finished .check {
+	 display: block !important;
+	 font-size: 24px;
+	 animation: scale 0.5s linear;
+	 content:"submitting";
+	 
+}
+ .finished .check i {
+	 transform-origin: center center;
+	 counter-reset:none;
+	 
+	 
+}
+ @keyframes loading {
+	 100% {
+		 transform: rotate(360deg);
+		 animation-iteration-count: infinite;
+	}
+}
+ @keyframes scale {
+	 0% {
+		 transform: scale(10);
+		 animation-iteration-count: infinite;
+	}
+	 50% {
+		 transform: scale(0.2);
+		 animation-iteration-count: infinite;
+	}
+	 70% {
+		 transform: scale(1.2);
+		 animation-iteration-count: infinite;
+	}
+	 90% {
+		 transform: scale(0.7);
+		 animation-iteration-count: infinite;
+	}
+	 100% {
+		 transform: scale(1);
+		 animation-iteration-count: infinite;
+	}
+}
+ 
+	</style>
+   
+	<!--socialicons-->
+	<div id="social-share">
+			  
+	   <a href="#" title="Social Share" id="share">
+		   
+    <i class="fas fa-arrow-alt-circle-left fa-2x my-social"></i>
+	   </a>
+	 
+	   <a href="https://instagram.com/eco_warriors_kpriet?igshid=udgd0udqae6v" target="_blank" title="Instagram" id="instagram">
+		<i class="fab fa-instagram fa-2x my-social"></i>
+	  </a>
+				   
+	  <a href="https://t.me/joinchat/Pgm7IRXIY1N4W3D50Uen-Q" target="_blank" title="Telegram" id="reddit">
+		  <i class="fab fa-telegram fa-2x my-social"></i>
+	  </a>            
+	
+	  <a href="https://www.youtube.com/channel/UC81xgF3beJ5IeDwO3f0EIjA" target="_blank" title="You Tube" id="linkedin">
+		  <i class="fab fa-youtube fa-2x my-social"></i>
+	  </a>
+	
+	  <a href="ecoclub@kpriet.ac" target="_blank" title="E-mail" id="whatsapp">
+		  <i class="far fa-envelope fa-2x my-social"></i>
+	  </a>
+	   
+	  <a href="https://twitter.com/EcoKpriet?s=20" target="_blank" title="Twitter" id="twitter">
+		  <i class="fab fa-twitter fa-2x my-social"></i>
+	  </a>
+	
+	  <a href="https://www.facebook.com/Eco_warriors_kpriet-116066506917683/?ti=as" target="_blank" title="Facebook" id="facebook">
+		  <i class="fab fa-facebook-f fa-2x my-social"></i>
+	  </a>
+   </div>
+</head>
+<body>
+    <header id="header" class="fixed-top">
+		<div class="container d-flex align-items-center justify-content-between">
+			<h1 class="logo"><img src="assets/img/eco.png" class="img-fluid "  width="37 " height="65" alt=""><a class="logo" href="index.html">ECO CLUB</a></h1>
+		  <!-- Uncomment below if you prefer to use an image logo -->
+		  <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+	
+		  <nav class="nav-menu d-none d-lg-block">
+			<ul>
+			  <li><a href="index.html">HOME</a></li>
+			  <li><a href="index.html">CLUB ACTIVITIES</a></li>
+			  <li><a href="ourteams.html">OUR TEAMS</a></li>
+			  <li class="active"><a href="contact.html">CONTACT</a></li>
+			  <li><a href="files/Eco webpage sangamam.pdf" target="_blank">MORE DETAILS</a></li>
+			  <li class="book-a-table text-center"><a href="" target="_blank">REGISTER OUR EVENTS</a></li>
+			</ul>
+		  </nav><!-- .nav-menu -->
+	
+		</div>
+	  </header><!-- End Header --> 
+	  <section class="contact-eco">
+		<div class="container-contact100">
+			<div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
+			<div class="wrap-contact100">
+				<form class="contact100-form validate-form" method="post" autocomplete="on" onsubmit="return ValidationEvent" name="google-sheet">
+					<span class="contact100-form-title">
+						Get in Touch..
+					</span>
+
+					<div class="wrap-input100 rs1-wrap-input100 validate-input" pattern="[A-Z][a-z]" required data-validate="Name is required">
+						<span class="label-input100">Tell us your name </span>
+						<input class="input100" type="text" name="Name" placeholder="Enter your name">
+					</div>
+
+					<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<span class="label-input100">Enter your email</span>
+						<input class="input100" type="email" name="Email" placeholder="Enter your email">
+					</div>
+
+					<div class="wrap-input100">
+						<span class="label-input100"> Contact Number</span>
+						<input class="input100" type="text" name="Phone"   data-validate="Number is required"  placeholder="987654321">
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Message is required">
+						<span class="label-input100">Message</span>
+						<textarea class="input100" name="Messege" placeholder="Your message here..."></textarea>
+					</div>
+					<!--<div class="form-group">
+						<input type="submit" name="submit" class="btnSubmit btn-block" value="Submit" />
+					</div>-->
+					<button class="button">
+						<span class="submit">Submit</span>
+						<span class="loading"><i class="fa fa-refresh"></i></span>
+						<span class="check"><i class="fa fa-check"></i></span>
+					</button>
+							
+				</form>
+			</div>
+		</div>
+	  </section>
+          
+          <script>
+			  
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz4FVo6b7BciHxWlTaimnMIMF1LNHc3Suo0s6WZehjdIbwGCG_6T5pY3Q/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+</body>
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyrights to <strong><span>ECO-CLUB OF KPRIET</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <H5>Designed and Developed by</H5>
+                    <p>ARUNAGIRI M</p>
+                    <P>KOUSHICK K</P>
+					<a href="https://instagram.com/eco_warriors_kpriet?igshid=udgd0udqae6v" target="_blank" title="Instagram" id="instagram">
+						<i class="fab fa-instagram fa-2x my-social"></i>
+					  </a>
+								   
+					  <a href="https://t.me/joinchat/Pgm7IRXIY1N4W3D50Uen-Q" target="_blank" title="Telegram" id="reddit">
+						  <i class="fab fa-telegram fa-2x my-social"></i>
+					  </a>            
+					
+					  <a href="https://www.youtube.com/channel/UC81xgF3beJ5IeDwO3f0EIjA" target="_blank" title="You Tube" id="linkedin">
+						  <i class="fab fa-youtube fa-2x my-social"></i>
+					  </a>
+					
+					  <a href="ecoclub@kpriet.ac" target="_blank" title="E-mail" id="whatsapp">
+						  <i class="far fa-envelope fa-2x my-social"></i>
+					  </a>
+					   
+					  <a href="https://twitter.com/EcoKpriet?s=20" target="_blank" title="Twitter" id="twitter">
+						  <i class="fab fa-twitter fa-2x my-social"></i>
+					  </a>
+					
+					  <a href="https://www.facebook.com/Eco_warriors_kpriet-116066506917683/?ti=as" target="_blank" title="Facebook" id="facebook">
+						  <i class="fab fa-facebook-f fa-2x my-social"></i>
+					  </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+ 
+<div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <!--end preloader-->
+  <!---button activejs-->
+<script>
+
+	const button = document.querySelector('.button');
+	const submit = document.querySelector('.submit');
+
+	function toggleClass() {
+		
+	this.classList.toggle('active');
+	}
+	
+	function addClass() {
+	this.classList.add('finished');
+	}
+	button.addEventListener('click', toggleClass);
+	button.addEventListener('transitionend', toggleClass);
+	button.addEventListener('transitionend', addClass);
+	
+</script>
+
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+ 
+   <!-- Template Main JS File -->
+   <script src="assets/js/main.js"></script>
+   
