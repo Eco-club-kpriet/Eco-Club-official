@@ -177,7 +177,7 @@ background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+
 .contact100-form-title {
   display: block;
   width: 100%;
-  font-family: "Poopins",Raleway-Black;
+  font-family:"Poppins", "Playfair Display", serif;
   font-size: 30px;
   color: #333333;
   line-height: 1.2;
