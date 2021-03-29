@@ -310,6 +310,8 @@ font-family: "Poppins","Playfair Display",serif,sans-serif;
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
+  display: inline;
+  font-family: "Poppins","Open Sans", sans-serif;
 }
 
 .mobile-nav * {
@@ -330,6 +332,8 @@ font-family: "Poppins","Playfair Display",serif,sans-serif;
   cursor: pointer;
   text-align: right;
   color: rgba(255, 255, 255, 0.5);
+  
+  font-family: "Poppins","Open Sans", sans-serif;
 }
 
 .mobile-nav .mobile-nav-close:hover {
@@ -344,6 +348,7 @@ font-family: "Poppins","Playfair Display",serif,sans-serif;
   font-weight: 500;
   outline: none;
   transition: 0.3s;
+  font-family: "Poppins","Open Sans", sans-serif;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -868,6 +873,7 @@ jssor heading*/
 }
 
 .team .team-text p {
+  font-family:"Poppins", "Playfair Display", serif;
   font-size:20px;
   font-weight:600;
     margin: 0;
@@ -2067,6 +2073,7 @@ jssor heading*/
 
 #footer .copyright {
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
   padding-top: 30px;
   font-size: 15px;
 }
