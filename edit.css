@@ -49,7 +49,7 @@
     color:white
 }		  
 .top-first:hover{
-    background-image: linear-gradient(147deg, #101820ff 50%, #fee715ff 50%);
+   
     color:black;
     transition-duration:0.8s;
 }
@@ -65,7 +65,7 @@
         padding-top: 20px;
     }		  
     .top-first:hover{
-        background-image: linear-gradient(147deg, #101820ff 50%, #fee715ff 50%);
+       
        
         color:black;
         transition-duration:0.7s;
