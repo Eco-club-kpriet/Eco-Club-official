@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 90vh;
   background: url("../img/hmbg.jpeg") top center;
    background-size: cover;
-  //background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   /*background: linear-gradient(90deg, rgba(21,144,139,1) 0%, rgba(106,228,223,1) 50%, rgba(172,204,202,1) 100%), url("../img/hero-bg.jpg") center center no-repeat;*/
  
 }
@@ -565,15 +565,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 64px;
   color: #202020;
 }
 #hero h2 {
   color: #161516;
-  margin: 10px 0 0 0;
+  margin: 10px 0 0 35px;
   font-size: 20px;
+ 
 }
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
@@ -626,6 +627,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+    margin-left:-20px;
   }
   #hero .hero-img img {
     width: 60%;
