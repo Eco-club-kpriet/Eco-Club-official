@@ -1765,8 +1765,8 @@ jssor heading*/
 .testimonials .testimonial-item .testimonial-img {
   width:320px;
   border-radius: 50%;
-  margin: -100px 100px 0px 0px;
-  padding-right:80px ;
+  margin: -200px 40px 10px 200px;
+  padding-right:52% ;
   position: relative;
   z-index: 2;
 }
