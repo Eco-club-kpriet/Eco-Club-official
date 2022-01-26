@@ -1829,11 +1829,25 @@ jssor heading*/
   .testimonials .testimonial-item .testimonial-img {
     width:380px;
    border-radius: 50%;
-   margin: -195px 50px 10px 180px;
+   margin: -195px 40px 10px 180px;
    padding-right: 63% ;
    position: relative;
    z-index: 2;
-    }
+  }
+  .testimonials .testimonial-item  .yb  {
+  font-style: "poppins","Playfair Display", serif;
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  margin: 0 15px 0 15px;
+  padding: 20px 30px 60px 20px;
+  position: relative;
+  z-index: 1;
+  background: rgba( 255, 255, 255, 0.30 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.0px );
+  -webkit-backdrop-filter: blur( 4.0px );
+  border-radius: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
